@@ -3,9 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedex</title>
+
+    <link rel="icon" href="./favicons/favicon-16x16.png"> <!-- Favicon -->
+    <link rel="stylesheet" href="./styles/style.css"> <!-- Style css -->
+
+    <title>Pokédex</title>
 </head>
 <body>
     
+    <main>
+
+        <!-- Image pokemon -->
+        <img 
+            src="" 
+            alt="pokemo"
+            class="pokemon-image"
+        />
+
+        <h1 class="pokemon-data">  
+            <span class="pokemon-number"></span> - 
+            <span class="pokemon-name"></span>
+        </h1>
+
+        <form class="form">
+            <input 
+                type="search"
+                class="input-search"
+                placeholder="Name or Number"
+                required
+            />
+        </form>
+
+        <div class="buttons">
+            <button class="button btn-prev">Prev &lt;</button>
+            <button class="button btn-next">Next &gt;</button>
+        </div>
+
+        <!-- Image pokedex -->
+        <img 
+            src="./images/pokedex.png" 
+            alt="pokedex" 
+            class="pokedex"
+        />
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="developer-info">
+                Desenvolvido por Bruno Mota
+            </div>
+            <div class="social-icons">
+                <a 
+                    href="https://www.instagram.com/_bmota7" 
+                    target="_blank"
+                >
+                    <img 
+                        src="./favicons/instagram.png" 
+                        alt="Instagram" 
+                    />
+                </a>
+                <a 
+                    href="https://github.com/bMota7" 
+                    target="_blank"
+                >
+                    <img 
+                        src="./favicons/github.png" 
+                        alt="GitHub"
+                    />
+                </a>
+            </div>
+        </div>
+        <div class="rights">
+            © Todos os direitos reservados
+        </div>
+    </footer>
+
+    <!-- Main Js -->
+    <script defer src="./js/script.js"></script>
 </body>
 </html>
